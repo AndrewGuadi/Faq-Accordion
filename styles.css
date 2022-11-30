@@ -1,0 +1,79 @@
+body {
+    background: linear-gradient(hsl(273, 75%, 66%),hsl(240, 73%, 65%));
+    background-attachment: fixed;
+    height:100vh;
+    font-family: 'Kumbh Sans', sans-serif;
+
+}
+
+.mainBody { 
+    width:60%;
+    overflow: hidden;
+    display:flex;
+    height:60vh;
+    position:absolute;
+    top:25%;
+    left:20%;
+    padding: 1% 5% 1% 5%;
+    background-color: white;
+    border: 0;
+    border-radius:25px;
+    z-index: 1;
+}
+
+.attribution{
+    position:absolute;
+    top:99%;
+}
+
+.left{
+    width:50%
+}
+
+.right{
+    width:50%;
+}
+
+.box{
+    position:absolute;
+    scale:120%;
+    top:50%;
+    left:13%;
+    z-index: 2;
+}
+
+.woman{
+    scale: 120%;
+    position:absolute;
+    top:15%;
+    left:-5%;
+}
+
+.accordion{
+    padding:25px 0 25px 25px;
+    font-size: 20px;
+    font-weight: 400;
+    border:0;
+
+}
+
+.accordion:hover{
+    color:orange;
+    cursor: pointer;
+}
+
+.panel{
+    display:none;
+    overflow:hidden;
+}
+
+h1{
+    font-size: 45px;
+    font-weight: 700;
+}
+
+.arrow{
+    margin-left:95px;
+}
+
+
